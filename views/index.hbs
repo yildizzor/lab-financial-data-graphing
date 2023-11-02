@@ -1,2 +1,44 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+<div class="information">
+  <div>
+    <h1>Filters</h1>
+
+    <label for="start-date">From</label>
+    <input
+      id="start-date"
+      type="date"
+      name="startDate"
+      min="2013-01-01"
+      max="2013-12-31"
+    />
+    <label for="end-date">to </label>
+    <input
+      id="end-date"
+      type="date"
+      name="endDate"
+      min="2013-01-01"
+      max="2013-12-31"
+    /><br /><br />
+    <label for="currency">Curreny</label>
+    <select id="currency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+  </div>
+
+  <div>
+    <h1>Values</h1>
+
+    <label for="max">Max</label>
+    <p><span id="max-price">0</span> <span id="currency1"></span></p>
+
+    <label for="min">Min </label>
+    <p><span id="min-price">0</span> <span id="currency2"></span></p>
+
+  </div>
+</div>
+<div>
+  <canvas id="myChart"></canvas>
+</div>

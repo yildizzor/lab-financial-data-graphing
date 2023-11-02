@@ -4,5 +4,21 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70vw;
+  max-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myChart {
+  max-width: 70vw;
+  max-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
 }
